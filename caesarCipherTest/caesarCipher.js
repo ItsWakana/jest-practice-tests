@@ -31,7 +31,7 @@ const caesarCipher = (string, repeat) => {
         }
     }
 
-    return newString;
+    return newString
 }
 
 module.exports = caesarCipher;
