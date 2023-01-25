@@ -1,4 +1,4 @@
-const calculator = {
+export const calculator = {
     add(a,b) {
         return a + b;
     },
@@ -12,5 +12,3 @@ const calculator = {
         return a * b;
     }
 }
-
-module.exports = calculator;

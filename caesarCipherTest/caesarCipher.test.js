@@ -1,4 +1,4 @@
-const caesarCipher = require('./caesarCipher');
+import { caesarCipher } from "./caesarCipher";
 
 test('test with simple strings', () => {
     expect(caesarCipher('abcde', 1)).toBe('bcdef');
