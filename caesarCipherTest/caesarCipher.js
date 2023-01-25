@@ -1,5 +1,4 @@
 const caesarCipher = (string, repeat) => {
-    //first create an alphabet variable, theen loop over this alphabet variable to create an object we can use later on when looping over the string to reference the value against the object and check if the value exists in the object. This way we won't need to loop over the entire alphabet each time.
 
     const alphabet = 'abcdefghijklmnopqrstuvwxyz';
     let newString = '';
